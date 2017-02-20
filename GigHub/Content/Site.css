@@ -36,7 +36,29 @@ textarea {
 .navbar-inverse .navbar-brand {
     color: #fff ; 
 }
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgba(218, 57, 0, 0.5);
+}
+
+.dropdown-menu{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
  
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+body {
+    font-size: 17px;
+}
+
 body,
 h1,
 h2,
@@ -53,3 +75,26 @@ h6,
   font-family: Lato, "Helvetica Neue", Arial, sans-serif;
 }
 
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 17px;
+    padding: 20px 15px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.form-control:focus {
+    border-color: #2196f3;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.btn {
+    font-size: 17px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+    padding: 7px 20px;
+}
