@@ -47,7 +47,9 @@ span.field-validation-error {
     font-weight: 700;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
     background-color: rgba(218, 57, 0, 0.5);
 }
 
@@ -99,8 +101,8 @@ h6,
 }
 
 .btn {
-    font-size: 17px;
-    -ms-border-radius: 9px;
+    /*font-size: 17px;
+    -ms-border-radius: 9px;*/
     border-radius: 9px;
     padding: 7px 20px;
 }
